@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="Avaliacao">
+        <item> Excelente 10%</item>
+        <item> Otimo 8%</item>
+        <item> Bom 5%</item>
+        <item> Ruim 2%</item>
+    </string-array>
+
+</resources>
