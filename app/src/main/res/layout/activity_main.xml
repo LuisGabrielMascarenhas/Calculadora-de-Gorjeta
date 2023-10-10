@@ -34,9 +34,13 @@
 
         <com.google.android.material.textfield.TextInputEditText
             android:layout_width="match_parent"
-            android:layout_height="wrap_content" />
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:hint="Digite o valor da conta"
+            />
 
     </com.google.android.material.textfield.TextInputLayout>
+
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -48,12 +52,13 @@
     <Spinner
         android:id="@+id/qualidade_spinner"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="50dp"
+        android:layout_margin="12dp"
 
         />
     <Button
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="50dp"
         android:text="Calcular Gorjeta"
         android:layout_margin="10dp"
         android:textStyle="bold"
@@ -75,7 +80,10 @@
 
         <com.google.android.material.textfield.TextInputEditText
             android:layout_width="match_parent"
-            android:layout_height="wrap_content" />
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:hint="Gorjeta"
+            />
 
     </com.google.android.material.textfield.TextInputLayout>
     <TextView
@@ -94,7 +102,10 @@
 
         <com.google.android.material.textfield.TextInputEditText
             android:layout_width="match_parent"
-            android:layout_height="wrap_content" />
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:hint="Total"
+            />
 
     </com.google.android.material.textfield.TextInputLayout>
 
