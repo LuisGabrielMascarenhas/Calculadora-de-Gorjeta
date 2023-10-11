@@ -10,7 +10,7 @@ import com.google.android.material.textfield.TextInputLayout;
 
 public class MainActivity extends AppCompatActivity {
 
- TextInputLayout txtFieldValor,txtFieldValorGorjeta,txtFieldValorTotal;
+  protected TextInputLayout txtFieldValor,txtFieldValorGorjeta,txtFieldValorTotal;
  Spinner qualidade_spinner;
 
  Button btnCalcular;
@@ -30,4 +30,5 @@ public class MainActivity extends AppCompatActivity {
         btnCalcular = findViewById(R.id.btnCalcular);
 
     }
+
 }
